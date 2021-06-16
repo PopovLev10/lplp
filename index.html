@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>пагода</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/Новый текстовый документ.css">
+  <link rel="icon" href="pictures/иконка.jpg">
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+  <link rel="stylesheet" type="text/css" href="css/slick.css">
+</head>
+<body>
+  <header>
+    <hr color="Gray">
+    <h1 align="center">ПОГОДА</h1>
+    <hr color="Gray">
+    <ul align='center'>
+      <li><a href="#">Главная</a></li>
+      <li><a href="wiki.html">Вики</a></li>
+      <li><a href="contakt.html">Контакты</a></li>
+      <li><a href="about_us.html">О сайте</a></li>
+      <li class="dropdown">
+        <a href="merch.html" class="dropbtn">!Наш мерч!</a>
+        <div class="dropdown-content">
+          <a href="merch_T-shirts.html">Футболки</a>
+          <a href="merch_notebook.html">Блокноты</a>
+        </div>
+      </li>
+    </ul>
+  </header>
+  <main>
+    <div class="slider">
+      <img src="https://cdn.megalife.net.ua/wp-content/242c6ae629a65ed846c07af91ae7ae2d/5e3bf139317f7f5189c4a7e09536a7ae.jpg">
+      <img src="https://colorteks31.ru/wp-content/uploads/2019/04/veljur_kupon_diskaveri-22.jpg">
+      <img src="https://i.pinimg.com/originals/22/ce/8d/22ce8dc5cdc6eed95a49b5d6b1b15e14.png">
+      <img src="https://telegraf.com.ua/files/2017/11/krasota-prirody-na-fotografiyax-16.jpg">
+    </div>
+    <h2 align="center">Погода на неделю(17.05-20.05)</h2>
+    <h3 align="center">Понедельник</h3>
+    <p align="center">+16°C-+27°C</p>
+    <p align="center">Гроза!!!</p>
+    <h4 align="center">Вторник</h4>
+    <p align="center">+15°С-+24°С</p>
+    <h5 align="center">Среда</h5>
+    <p align="center">+14°С-+17°С</p>
+    <h6 align="center">Четверг</h6>
+    <p align="center">+12°С-+23°С</p>
+    <div class="posts">
+      <img src="pictures/Без названия (1).jpg">
+      <h7>Приметы летом</h7>
+      <p>Перед ненастьем птицы звонко поют .
+        Перед дождём цветы обычно закрываются.
+        Лягушки квакают в пруду — к дождю.
+        Птицы низко летают — к дождю.
+        Пчёлы спрятались в улей — к дождю</p>
+        <p class="button">Читать подробнее...</p>
+      </div>
+      <div class="gallery">
+        <img src="pictures/40812-ozero-les-utro-priroda-peyzash-1920x1080.jpg" alt="природа">
+        <img src="pictures/Без названия.jpg" alt="природа">
+        <img src="pictures/Без названия (2).jpg" alt="природа">
+        <img src="pictures/unnamed.jpg" alt="природа">
+      </div>
+    </main>
+    <hr color="Gray">
+    <footer>
+    <p align="center">Copyrght© All Rights Reserved</p>
+
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $('.slider').slick({
+        autoplay: true,
+        slidesToShow: 4,
+        autoplaySpeed: 1000
+      });
+    });
+  </script>
+  </html>
